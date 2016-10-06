@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
+
+
+html{
+ --img-card: url(images/wallart.jpg) no-repeat center center;
+ --content-bg: url("http://2.bp.blogspot.com/-6xBZDG-kel8/Vn7vQUN3VVI/AAAAAAAAAHE/80IYAPWj4rk/s1600/maxresdefault.jpg") no-repeat center center fixed;
+ background: var(--content-bg);
+ background-size: cover;
+
+}
+
+section{
+ border: 1px transparent solid;
+}
+
+
+.navbar{
+ text-align: center;
+ position: fixed;
+ width: 100%;
+ margin-top: 0;
+
+}
+
+.navbar ul{
+ list-style-type: none;
+ display: block;
+}
+
+li {
+ line-height: 10px;
+ color: white;
+ display: inline;
+ margin: 0 10px;
+}
+
+a {
+ text-decoration: none;
+ font-size: 2em;
+ color: white;
+
+}
+
+a:visited{
+ color:currentColor;
+}
+
+a:hover{
+ color: red;
+}
+
+.content{
+ margin: 70px 20px;
+ background-color: rgba(0,0,0,0.5);
+}
+
+.gallery-container{
+ display: inline;
+ height: 100%;
+}
+
+.pic {
+ padding: 10px 10px 10px 10px;
+ margin: 10px auto;
+ height: 300px;
+ width: 300px;
+ background: var(--img-card);
+ background-size: contain;
+}
+
+.footer{
+ width: 100%;
+ margin: 0 auto;
+ padding: 10px;
+ background: rgba(0,0,0,0.3);
+
+}
+
+svg {
+ font: 'Ruslan Display', cursive;
+ fill: transparent;
+ font-size: 45px;
+ stroke: red;
+}
+
+svg:hover{
+ fill: red;
+ cursor: pointer;
+}

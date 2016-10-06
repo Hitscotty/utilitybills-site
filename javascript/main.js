@@ -1,11 +1,6 @@
 
 $(document).ready(function() {
 
-
- $('.overlay').click(function(){
-  $('.wrapper').toggleClass('wrapper-trans');
-  $('object').toggleClass('');
-
  });
 
 function transitionState(){
@@ -13,7 +8,5 @@ function transitionState(){
 }
 
 function contentState(){
- window.location = "content.html";
+ window.location.href = "content.html";
 }
-
- });
