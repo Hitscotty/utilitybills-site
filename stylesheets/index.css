@@ -1,7 +1,5 @@
-@import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
+@import url(https://fonts.googleapis.com/css?family=Ruslan+Display);
 @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
-
-
 
 html, body {
  margin: 0;
@@ -41,7 +39,11 @@ svg{
   background: rgba(0,0,0,0);
 }
 
+/* page link issue fix */
+object{
+ pointer-events: none;
 
+}
 #main{
  width: 270px;
  height: 40px;
@@ -66,4 +68,8 @@ object#trans{
  width: 100%;
  height: 100%;
  margin: 0 auto;
+}
+
+a {
+ position: fixed;
 }

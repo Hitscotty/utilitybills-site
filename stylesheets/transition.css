@@ -1,5 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
-@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Ruslan+Display);
 @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
 
 
@@ -7,7 +6,6 @@
 html, body {
  margin: 0;
  height: 100%;
- /* variables */
  --main-bg: url("http://orig06.deviantart.net/6091/f/2014/237/e/f/slipknot_goat_symbol_gif_by_lzjoz-d7wlcxh.gif") no-repeat center center;
 }
 
@@ -31,8 +29,6 @@ html, body {
  align-items: center;
  justify-content: center;
  height: 100%;
- border: 1px green solid;
-
 }
 
 svg{
