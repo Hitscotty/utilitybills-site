@@ -39,7 +39,11 @@ svg{
   background: rgba(0,0,0,0);
 }
 
+/* page link issue fix */
+object{
+ pointer-events: none;
 
+}
 #main{
  width: 270px;
  height: 40px;
@@ -64,4 +68,8 @@ object#trans{
  width: 100%;
  height: 100%;
  margin: 0 auto;
+}
+
+a {
+ position: fixed;
 }

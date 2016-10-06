@@ -1,12 +1,13 @@
 @import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
 
 
-html{
+html,body{
+ --icon-color: grey;
  --img-card: url(images/wallart.jpg) no-repeat center center;
  --content-bg: url("http://2.bp.blogspot.com/-6xBZDG-kel8/Vn7vQUN3VVI/AAAAAAAAAHE/80IYAPWj4rk/s1600/maxresdefault.jpg") no-repeat center center fixed;
  background: var(--content-bg);
  background-size: cover;
-
+ overflow-x:hidden;
 }
 
 section{
@@ -15,29 +16,35 @@ section{
 
 
 .navbar{
- text-align: center;
+ max-width: 100%;
+ width: 99.9%;
  position: fixed;
- width: 100%;
- margin-top: 0;
+ height: 70px;
+ background-color: rgba(0,0,0,0.5);
 
 }
 
 .navbar ul{
+ height: 100%;
+ margin: 20px auto;
+ display: inline;
+ text-align: center;
+ padding: 0;
  list-style-type: none;
  display: block;
 }
 
 li {
  line-height: 10px;
- color: white;
+ color: var(--icon-color);
  display: inline;
- margin: 0 10px;
+ margin: 0 30px;
 }
 
 a {
  text-decoration: none;
  font-size: 2em;
- color: white;
+ color: var(--icon-color);
 
 }
 
@@ -45,28 +52,28 @@ a:visited{
  color:currentColor;
 }
 
-a:hover{
+li:hover{
  color: red;
 }
 
 .content{
  margin: 70px 20px;
- background-color: rgba(0,0,0,0.5);
+ background: rgba(0,0,0,0.5);
 }
 
 .gallery-container{
- display: inline;
- height: 100%;
+ display: flex;
+ flex-direction: column;
 }
 
 .pic {
- padding: 10px 10px 10px 10px;
- margin: 10px auto;
- height: 300px;
- width: 300px;
+ margin: 25px auto;
+ height: 600px;
+ width: 600px;
  background: var(--img-card);
  background-size: contain;
 }
+
 
 .footer{
  width: 100%;
