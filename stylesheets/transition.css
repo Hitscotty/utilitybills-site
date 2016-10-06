@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
+@import "compass/css3";
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+
+html, body {
+ margin: 0;
+ height: 100%;
+ /* variables */
+ --main-bg: url("http://orig06.deviantart.net/6091/f/2014/237/e/f/slipknot_goat_symbol_gif_by_lzjoz-d7wlcxh.gif") no-repeat center center;
+}
+
+.content-wrapper{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.wrapper{
+ margin: 0;
+ height: 100%;
+ width: 100%;
+ background: var(--main-bg);
+ background-size: cover;
+}
+
+.overlay{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100%;
+ border: 1px green solid;
+
+}
+
+svg{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  background: rgba(0,0,0,0);
+}
+
+
+object{
+ width: 270px;
+ height: 40px;
+ margin: 0 auto;
+}
