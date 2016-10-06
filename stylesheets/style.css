@@ -34,11 +34,6 @@ html, body {
  height: 100%;
 }
 
-.btn{
- border: 1px red solid;
- z-index: 8000;
-}
-
 svg{
   display: block;
   position: relative;
