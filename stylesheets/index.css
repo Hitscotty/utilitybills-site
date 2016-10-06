@@ -1,7 +1,5 @@
-@import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
+@import url(https://fonts.googleapis.com/css?family=Ruslan+Display);
 @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
-
-
 
 html, body {
  margin: 0;
