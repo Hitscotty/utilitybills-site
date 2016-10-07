@@ -1,75 +1,73 @@
 @import url(https://fonts.googleapis.com/css?family=Ruslan+Display);
 @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
-
 html, body {
- margin: 0;
- height: 100%;
- /* variables */
- --main-bg: url("http://orig06.deviantart.net/6091/f/2014/237/e/f/slipknot_goat_symbol_gif_by_lzjoz-d7wlcxh.gif") no-repeat center center;
- --trans-bg: url("https://secure.static.tumblr.com/7660a84a7c3f433115540fac051c0fae/ue9eddc/fvCnf3ong/tumblr_static_tumblr_static_filename_640.gif") no-repeat center center;
+    margin: 0;
+    height: 100%;
+    /* variables */
+    --main-bg: url(http://orig06.deviantart.net/6091/f/2014/237/e/f/slipknot_goat_symbol_gif_by_lzjoz-d7wlcxh.gif) no-repeat center center;
+    --trans-bg: url(https://secure.static.tumblr.com/7660a84a7c3f433115540fac051c0fae/ue9eddc/fvCnf3ong/tumblr_static_tumblr_static_filename_640.gif) no-repeat center center;
 }
 
-.content-wrapper{
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.wrapper{
- margin: 0;
- height: 100%;
- width: 100%;
- background: var(--main-bg);
- background-size: cover;
+.wrapper {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--main-bg);
+    background-size: cover;
 }
 
-.overlay{
- display: flex;
- align-items: center;
- justify-content: center;
- height: 100%;
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
-svg{
-  display: block;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-  background: rgba(0,0,0,0);
+svg {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0);
 }
+
 
 /* page link issue fix */
-object{
- pointer-events: none;
 
-}
-#main{
- width: 270px;
- height: 40px;
- margin: 0 auto;
-
+object {
+    pointer-events: none;
 }
 
+#main {
+    width: 270px;
+    height: 40px;
+    margin: 0 auto;
+}
 
 
 /* transition theme */
 
-.wrapper-trans{
- margin: 0;
- height: 100%;
- width: 100%;
- background: var(--trans-bg);
- background-size: cover;
+.wrapper-trans {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--trans-bg);
+    background-size: cover;
 }
 
-
-object#trans{
- width: 100%;
- height: 100%;
- margin: 0 auto;
+object#trans {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 a {
- position: fixed;
+    position: fixed;
 }

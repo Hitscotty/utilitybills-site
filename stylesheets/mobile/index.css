@@ -1,0 +1,5 @@
+@media only screen and (max-device-width: 480px) {
+    object {
+        border: 1px red solid;
+    }
+}
