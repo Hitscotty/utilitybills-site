@@ -4,27 +4,34 @@
 html,body{
  --icon-color: grey;
  --img-card: url(images/wallart.jpg) no-repeat center center;
- --content-bg: url("http://2.bp.blogspot.com/-6xBZDG-kel8/Vn7vQUN3VVI/AAAAAAAAAHE/80IYAPWj4rk/s1600/maxresdefault.jpg") no-repeat center center fixed;
+ --content-bg: url(https://66.media.tumblr.com/ac95023837f871aca0a73bb3bfad4b80/tumblr_npqwt9qQhE1roic4mo1_500.gif) no-repeat center center fixed;
+ --home-icon: url(images/home.jpg) no-repeat center center;
  background: var(--content-bg);
  background-size: cover;
  overflow-x:hidden;
 }
 
-section{
- border: 1px transparent solid;
-}
-
-
 .navbar{
- max-width: 100%;
- width: 99.9%;
+ top: 0;
+ width: 100%;
  position: fixed;
  height: 70px;
  background-color: rgba(0,0,0,0.5);
-
+ z-index: 3;
 }
 
-.navbar ul{
+.home{
+ height: 50px;
+ width: 50px;
+ margin: 10px 10px;
+ display: inline;
+ position: fixed;
+ background: var(--content-bg);
+ background-size: contain;
+ border: 1px red solid;
+}
+
+ul{
  height: 100%;
  margin: 20px auto;
  display: inline;
@@ -40,19 +47,13 @@ li {
  display: inline;
  margin: 0 30px;
 }
-
 a {
  text-decoration: none;
  font-size: 2em;
  color: var(--icon-color);
 
 }
-
-a:visited{
- color:currentColor;
-}
-
-li:hover{
+a:hover{
  color: red;
 }
 
@@ -70,10 +71,16 @@ li:hover{
  margin: 25px auto;
  height: 600px;
  width: 600px;
+ border-radius: 5%;
  background: var(--img-card);
  background-size: contain;
+ cursor: pointer;
+ opacity: 0.7;
 }
 
+.pic:hover{
+ opacity: 1;
+}
 
 .footer{
  width: 100%;
@@ -87,7 +94,7 @@ svg {
  font: 'Ruslan Display', cursive;
  fill: transparent;
  font-size: 45px;
- stroke: red;
+ stroke: none;
 }
 
 svg:hover{
